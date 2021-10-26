@@ -14,6 +14,9 @@
 		8293EE4A27271A8900B8A11E /* MeuVinho.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8293EE4827271A8900B8A11E /* MeuVinho.xcdatamodeld */; };
 		8293EE4C27271A8D00B8A11E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8293EE4B27271A8D00B8A11E /* Assets.xcassets */; };
 		8293EE4F27271A8D00B8A11E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8293EE4D27271A8D00B8A11E /* LaunchScreen.storyboard */; };
+		8293EE5727271BD600B8A11E /* DataBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8293EE5627271BD600B8A11E /* DataBaseController.swift */; };
+		8293EE592727297800B8A11E /* UvaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8293EE582727297800B8A11E /* UvaTableViewController.swift */; };
+		8293EE5B2727299800B8A11E /* VinhoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8293EE5A2727299800B8A11E /* VinhoTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		8293EE4B27271A8D00B8A11E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8293EE4E27271A8D00B8A11E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8293EE5027271A8D00B8A11E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8293EE5627271BD600B8A11E /* DataBaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseController.swift; sourceTree = "<group>"; };
+		8293EE582727297800B8A11E /* UvaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UvaTableViewController.swift; sourceTree = "<group>"; };
+		8293EE5A2727299800B8A11E /* VinhoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VinhoTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +68,13 @@
 				8293EE4127271A8900B8A11E /* SceneDelegate.swift */,
 				8293EE4327271A8900B8A11E /* ViewController.swift */,
 				8293EE4527271A8900B8A11E /* Main.storyboard */,
+				8293EE582727297800B8A11E /* UvaTableViewController.swift */,
+				8293EE5A2727299800B8A11E /* VinhoTableViewController.swift */,
 				8293EE4B27271A8D00B8A11E /* Assets.xcassets */,
 				8293EE4D27271A8D00B8A11E /* LaunchScreen.storyboard */,
 				8293EE5027271A8D00B8A11E /* Info.plist */,
 				8293EE4827271A8900B8A11E /* MeuVinho.xcdatamodeld */,
+				8293EE5627271BD600B8A11E /* DataBaseController.swift */,
 			);
 			path = MeuVinho;
 			sourceTree = "<group>";
@@ -141,9 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8293EE5727271BD600B8A11E /* DataBaseController.swift in Sources */,
 				8293EE4A27271A8900B8A11E /* MeuVinho.xcdatamodeld in Sources */,
+				8293EE592727297800B8A11E /* UvaTableViewController.swift in Sources */,
 				8293EE4427271A8900B8A11E /* ViewController.swift in Sources */,
 				8293EE4027271A8900B8A11E /* AppDelegate.swift in Sources */,
+				8293EE5B2727299800B8A11E /* VinhoTableViewController.swift in Sources */,
 				8293EE4227271A8900B8A11E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

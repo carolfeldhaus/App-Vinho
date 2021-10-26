@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19206" systemVersion="20G165" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Uva" representedClassName="Uva" syncable="YES" codeGenerationType="class">
+        <attribute name="nome" optional="YES" attributeType="String"/>
+        <attribute name="tipo" optional="YES" attributeType="String"/>
+        <relationship name="vinhos" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Vinho"/>
+    </entity>
+    <entity name="Vinho" representedClassName="Vinho" syncable="YES" codeGenerationType="class">
+        <attribute name="nome" optional="YES" attributeType="String"/>
+        <attribute name="pais" optional="YES" attributeType="String"/>
+        <attribute name="vinicola" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Uva" positionX="-63" positionY="-18" width="128" height="74"/>
+        <element name="Vinho" positionX="-54" positionY="9" width="128" height="74"/>
+    </elements>
 </model>
